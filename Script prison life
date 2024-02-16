@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("speed", "RJTheme1")
+local Window = Library.CreateLib("by sm1le", "RJTheme1")
 
-local Tab = Window:NewTab("smile tp")
+local Tab = Window:NewTab("smile hack")
 
 local Section = Tab:NewSection("speed live")
 
@@ -16,5 +16,26 @@ end);
 
 Section:NewButton("GUARD", "скорость", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(842.9005737304688, 103.71685791015625, 2263.0380859375)
 end);
+Section:NewButton("SPEED HACK", "скорость", function() while game:GetService("RunService").RenderStepped:wait() do
+  game:GetService("Workspace").team_smile5.Humanoid.WalkSpeed = 200
+end
+end);
+Section:NewButton("BOOMBOX", "скорость", function() _G.boomboxb = game:GetObjects('rbxassetid://740618400')[1]
+_G.boomboxb.Parent = game:GetService'Players'.LocalPlayer.Backpack
+loadstring(_G.boomboxb.Client.Source)() 
+loadstring(_G.boomboxb.Server.Source)() --the original scripts made by roblox with minor changes.
+end);
 
+local Tab = Window:NewTab("scripts")
+
+local Section = Tab:NewSection("by sm1le")
+
+Section:NewLabel("script")
+
+
+Section:NewButton("ghost hub", "скорость", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end);
+
+Section:NewButton("infinite yield", "скорость", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end);
 
