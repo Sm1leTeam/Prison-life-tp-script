@@ -17,5 +17,4 @@ end);
 Section:NewButton("GUARD", "скорость", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(842.9005737304688, 103.71685791015625, 2263.0380859375)
 end);
 
---GUI prison life
-]]-by smile
+
