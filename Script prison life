@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
+
+local Window = Library.CreateLib("speed", "RJTheme1")
+
+local Tab = Window:NewTab("smile tp")
+
+local Section = Tab:NewSection("speed live")
+
+Section:NewLabel("speed")
+
+Section:NewButton("CRIMINAL", "скорость", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-934.6649169921875, 106.50787353515625, 2063.029052734375)
+end);
+
+
+
+
+Section:NewButton("GUARD", "скорость", function() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(842.9005737304688, 103.71685791015625, 2263.0380859375)
+end);
+
+--GUI prison life
+]]-by smile
